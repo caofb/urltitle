@@ -2,7 +2,7 @@ var request=require('request'),
     Q=require('q'),
     jsdom = require("jsdom"),
     fs=require('fs');
-var jquery = fs.readFileSync("./node_modules/jquery/dist/jquery.js", "utf-8");
+var jquery = fs.readFileSync(__dirname+"/node_modules/jquery/dist/jquery.js", "utf-8");
 function crawlUrl(url) {
 	var deferred = Q.defer();
 	var options={
