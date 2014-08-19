@@ -1,6 +1,6 @@
 {
   "name": "urltitle",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "get the url title",
   "main": "index.js",
   "scripts": {
