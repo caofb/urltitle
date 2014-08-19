@@ -7,7 +7,7 @@ describe('getTitleFromUrl', function() {
 		   if(err){
 		   	 done(err);
 		   }	
-		   title.should.equal("百度一下，你就知道 ");
+		   title.should.equal("百度一下，你就知道");
 		   done();
 		});
 	});
